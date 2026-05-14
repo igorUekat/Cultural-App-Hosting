@@ -1,0 +1,14 @@
+export const ACCESS_TOKEN = "access";
+export const REFRESH_TOKEN = "refresh";
+export const CURRENT_USER = "current_user";
+export const TEMPORARY_USER_ID = "temporary_user_id";
+export const USERS_COMPANY = "users_company";
+export const PHOTOS = "photos";
+export const ARTISTS = "artists"
+export const COMPANIES = "companies"
+export const EVENTS = "events"
+export const NOTIFICATIONS = "notifications"
+export const EVENT_ARTISTS = "event_artists"
+export const USER_LONGITUDE = "user_longitude"
+export const USER_LATITUDE = "user_latitude"
+export const SUPPOSED_TO_BE_LOGGED = "supposed_to_be_logged"

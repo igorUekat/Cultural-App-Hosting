@@ -1,0 +1,48 @@
+from django.urls import path, include
+from .views import register_user, login_user, create_company, get_company, update_company, upload_photo, get_photos, get_artists, create_event, create_artist, create_notification, add_event_artist, get_events, get_companies, get_notifications, get_event_artists, get_coordinates, patch_event, delete_event, update_event, clear_event_artists, update_photo, get_employees, update_employee, follow_artist, follow_company, follow_event, unfollow_artist, unfollow_company, unfollow_event, spotify_login, spotify_callback, get_top_artists, create_spotify_artist, update_user, refresh_token, verify_token, logout_view, register_employee 
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from django.contrib.auth import views as auth_views
+
+urlpatterns = [
+    path('register/', register_user),
+    path('login/', login_user),
+    path('token/', TokenObtainPairView.as_view()),
+    path('token/refresh/', refresh_token),
+    path('api_auth/', include("rest_framework.urls")),
+    path('create_company/', create_company),
+    path('get_company/<int:pk>/', get_company),
+    path('update_company/', update_company),
+    path('upload_photo/', upload_photo),
+    path('get_photos/', get_photos),
+    path('get_artists/', get_artists),
+    path('create_event/', create_event),
+    path('create_artist/', create_artist),
+    path('create_notification/', create_notification),
+    path('add_event_artist/<int:pk>/', add_event_artist),
+    path('get_events/', get_events),
+    path('get_companies/', get_companies),
+    path('get_notifications/', get_notifications),
+    path('get_event_artists/<int:pk>/', get_event_artists),
+    path('get_coordinates/', get_coordinates),
+    path('patch_event/<int:pk>/', patch_event),
+    path('delete_event/<int:pk>/', delete_event),
+    path('update_event/<int:pk>/', update_event),
+    path('clear_event_artists/<int:pk>/', clear_event_artists),
+    path('update_photo/<int:pk>/', update_photo),
+    path('get_employees/', get_employees),
+    path('update_employee/<int:pk>/', update_employee),
+    path('follow_event/<int:pk>/', follow_event),
+    path('follow_artist/<int:pk>/', follow_artist),
+    path('follow_company/<int:pk>/', follow_company),
+    path('unfollow_event/<int:pk>/', unfollow_event),
+    path('unfollow_artist/<int:pk>/', unfollow_artist),
+    path('unfollow_company/<int:pk>/', unfollow_company),
+    path('spotify/login/', spotify_login),
+    path('spotify/callback/', spotify_callback),
+    path('spotify/get_top_artist/', get_top_artists),
+    path('create_spotify_artist/', create_spotify_artist),
+    path('logout_user/', logout_view),
+    path('update_user/', update_user),
+    path('verify/', verify_token),
+    path('register_employee/', register_employee)
+]

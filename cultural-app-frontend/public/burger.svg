@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="40px"
+   viewBox="0 -960 960 960"
+   width="40px"
+   fill="#e3e3e3"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="dehaze_40dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.svg"
+   inkscape:export-filename="dehaze_40dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="19.325"
+     inkscape:cx="20.025873"
+     inkscape:cy="20"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M120-693.33V-760h720v66.67H120ZM120-200v-66.67h720V-200H120Zm0-246.67v-66.66h720v66.66H120Z"
+     id="path1" />
+  <path
+     style="fill:#4c2c72;fill-rule:evenodd;stroke-width:0.195577"
+     d="M 5.0452781,9.702458 V 8.3311772 H 20 34.954722 V 9.702458 11.073739 H 20 5.0452781 Z"
+     id="path2"
+     transform="matrix(24,0,0,24,0,-960)" />
+  <path
+     style="fill:#4c2c72;fill-rule:evenodd;stroke-width:0.195577"
+     d="M 5.0452781,20 V 18.628719 H 20 34.954722 V 20 21.371281 H 20 5.0452781 Z"
+     id="path3"
+     transform="matrix(24,0,0,24,0,-960)" />
+  <path
+     style="fill:#4c2c72;fill-rule:evenodd;stroke-width:0.195577"
+     d="M 5.0452781,30.297542 V 28.926261 H 20 34.954722 v 1.371281 1.371281 H 20 5.0452781 Z"
+     id="path4"
+     transform="matrix(24,0,0,24,0,-960)" />
+</svg>
