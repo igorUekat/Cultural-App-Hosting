@@ -1,0 +1,11 @@
+schemaVersion: "1.2"
+endpoints:
+    - name: cultural-app-be2
+      displayName: CULTURAL APP
+      service:
+        basePath: /
+        port: 8000
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
